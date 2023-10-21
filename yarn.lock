@@ -5,9 +5,9 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@anireact/bigstr@workspace:.":
+"@anireact/base51@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@anireact/bigstr@workspace:."
+  resolution: "@anireact/base51@workspace:."
   dependencies:
     "@anireact/typescript-config": ^1.0.0
     "@types/node": ^20.8.7

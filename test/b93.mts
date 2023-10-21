@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { e93, d93 } from '@anireact/bigstr';
+import { e93, d93 } from '@anireact/base51';
 
 test('Base93 encoder', () => {
     assert.equal(e93(0n), ' ');

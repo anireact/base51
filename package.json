@@ -1,5 +1,5 @@
 {
-    "name": "@anireact/bigstr",
+    "name": "@anireact/base51",
     "version": "1.0.0",
     "description": "ASCII-only bigint serialization.",
     "author": "Yuri Zemskov <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
@@ -12,13 +12,13 @@
         "serialize",
         "deserialize"
     ],
-    "homepage": "https://github.com/anireact/bigstr#readme",
+    "homepage": "https://github.com/anireact/base51#readme",
     "bugs": {
-        "url": "https://github.com/anireact/bigstr/issues"
+        "url": "https://github.com/anireact/base51/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/anireact/bigstr.git"
+        "url": "https://github.com/anireact/base51.git"
     },
     "packageManager": "yarn@3.6.4",
     "scripts": {

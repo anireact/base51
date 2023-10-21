@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import { e51, d51 } from '@anireact/bigstr';
+import { e51, d51 } from '@anireact/base51';
 
 test('Base51 encoder', () => {
     assert.equal(e51(0n), 'A');
