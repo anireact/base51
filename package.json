@@ -1,0 +1,46 @@
+{
+    "name": "@anireact/bigstr",
+    "version": "1.0.0",
+    "description": "ASCII-only bigint serialization.",
+    "author": "Yuri Zemskov <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
+    "license": "MIT",
+    "keywords": [
+        "base51",
+        "base93",
+        "encode",
+        "decode",
+        "serialize",
+        "deserialize"
+    ],
+    "homepage": "https://github.com/anireact/bigstr#readme",
+    "bugs": {
+        "url": "https://github.com/anireact/bigstr/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/anireact/bigstr.git"
+    },
+    "packageManager": "yarn@3.6.4",
+    "scripts": {
+        "make": "tsc --build",
+        "watch": "tsc --build --watch --preserveWatchOutput",
+        "clean": "rm -rf ./out/ ./tmp/",
+        "remake": "yarn clean && yarn make",
+        "test": "yarn make && node --enable-source-maps --test ./tmp/**/*.mjs",
+        "prepack": "yarn clean && yarn test"
+    },
+    "sideEffects": false,
+    "type": "module",
+    "exports": {
+        ".": {
+            "types": "./out/index.d.mts",
+            "import": "./out/index.mjs"
+        }
+    },
+    "devDependencies": {
+        "@anireact/typescript-config": "^1.0.0",
+        "@types/node": "^20.8.7",
+        "prettier": "^3.0.3",
+        "typescript": "^5.2.2"
+    }
+}

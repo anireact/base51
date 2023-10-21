@@ -1,0 +1,10 @@
+{
+    "extends": "@anireact/typescript-config",
+    "include": ["./**/*", "./**/*.json"],
+    "exclude": ["./tsconfig.json"],
+    "compilerOptions": {
+        "rootDir": "./",
+        "outDir": "../out/",
+        "tsBuildInfoFile": "../out/.tsbuildinfo"
+    }
+}

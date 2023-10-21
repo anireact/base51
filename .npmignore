@@ -1,0 +1,14 @@
+/.vscode/
+
+/.yarn/
+
+/out/.tsbuildinfo
+/tmp/
+/play/
+/test/
+
+tsconfig.json
+tsconfig.*.json
+prettier.config.mjs
+.editorconfig
+*.tgz
