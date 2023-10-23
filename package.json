@@ -1,7 +1,7 @@
 {
     "name": "@anireact/base51",
-    "version": "1.0.0",
-    "description": "ASCII-only bigint serialization.",
+    "version": "1.0.1",
+    "description": "ASCII-only bigint encodings, suitable for C-like identifiers, CSS classnames, JSON serialization, etc.",
     "author": "Yuri Zemskov <miyaokamarina@gmail.com> (https://twitter.com/miyaokamarina)",
     "license": "MIT",
     "keywords": [

@@ -1,6 +1,33 @@
-# Based
+# Base51
 
-> ASCII-only bigint serialization.
+> ASCII-only bigint encodings, suitable for C-like identifiers, CSS classnames,
+> JSON serialization, etc.
+
+## Usage
+
+```bash
+yarn add @anireact/base51
+```
+
+```bash
+npm install @anireact/base51
+```
+
+```javascript
+import { e51, d51, e93, d93 } from '@anireact/base51';
+
+// Encode an integer with Base51:
+assert(e51(0xe81b73abdbca50c433839f9255368d1an) === 'ISuPzhbXXDxQyswSJLwjnxv');
+
+// Decode Base51 string:
+assert(d51('ISuPzhbXXDxQyswSJLwjnxv') === 0xe81b73abdbca50c433839f9255368d1an);
+
+// Encode the same integer using Base93:
+assert(e93(0xe81b73abdbca50c433839f9255368d1an) === '-82Fga7uV LTYF3lNGw1');
+
+// And then decode the string:
+assert(d93('-82Fga7uV LTYF3lNGw1') === 0xe81b73abdbca50c433839f9255368d1an);
+```
 
 ## Base51
 
